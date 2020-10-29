@@ -11,9 +11,9 @@
 int main(void)
 {
   PBDDR = 0xff;
-	PBDR = 0xf0;
-		
-	while(1){};   
+  PBDR = 0xf0;
+
+  while(1){};   
 
   return(0);
 }

@@ -11,10 +11,10 @@
 #include<mes2.h>
 
 int main(void){
-    PBDDR = 0xff;
-	PBDR = 0xaa; // <- ‚±‚±‚ð•ÏX
-		
-	while(1){};   
+  PBDDR = 0xff;
+  PBDR = 0xaa; // <- ‚±‚±‚ð•ÏX
+
+  while(1){};
 
   return(0);
 }
